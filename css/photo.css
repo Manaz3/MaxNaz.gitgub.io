@@ -1,0 +1,81 @@
+header {
+    width:200px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 3px solid rgb(46, 46, 46);
+    border-radius: 20px;
+
+}
+header div:nth-child(1) {
+    font-size: 30px;
+    text-shadow: 0 0 3px black;
+}
+
+header div:nth-child(2) {
+    font-size: 20px;
+    text-shadow: 0 0 3px black;
+}
+body {
+    background-color: rgb(71, 70, 70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+.topnav {
+    background-color: rgb(46, 46, 46);
+    overflow: hidden;
+    position: relative;
+    margin-top: -74px;
+    margin-left: 215px;
+    border: 3px solid rgb(46, 46, 46);
+}
+
+.topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 0 0 3px black;
+    
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.photos {
+    margin: 25px auto 35px;
+}
+table img {
+    height: 600px;
+    display:block;
+    margin:auto;
+    
+
+}
+
+footer {
+    background-image: url(photo_2023-03-01_22-43-28.jpg);
+    background-size: 200px;
+    height: 50px;
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0 0 6px black;
+    text-align: center;
+    border: 3px solid #4CAF50;
+    margin: -10px;
+}
